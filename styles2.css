@@ -81,6 +81,14 @@ h2 {
     color:#104d44;
 }
 
+#delete{
+    background-color: #FF6363;
+}
+
+#delete > a{
+    color:white;
+}
+
 /* FOR LIST TYPE PAGES!(e.g. customers.html) */
 
 .entries > p {
