@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto&display=swap');
+
 body{
     margin: 0 ;
     background-color: #125B50;
@@ -62,7 +64,7 @@ ul > li:hover {
     text-align:center;
     font-size: 64px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
 
 }
@@ -94,7 +96,7 @@ ul > li:hover {
 
 #create-account > p {
     text-align: right;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 10px;
 }
 
@@ -127,7 +129,7 @@ ul > li:hover {
     margin: -5px;
     margin-left: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #125B50;
 }
 
@@ -154,7 +156,7 @@ input [type=text]:focus {
 #login > p {
     grid-area: login;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #login > p > a {
@@ -173,7 +175,7 @@ input [type=text]:focus {
 #forgot-pass {
     grid-area: forgot-pass;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #forgot-pass > p > a {
@@ -184,7 +186,7 @@ input [type=text]:focus {
 #create-account {
     grid-area: create-account;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #create-account > p > a {
@@ -241,7 +243,7 @@ input [type=text]:focus {
     text-decoration:none;
     color:#125B50;
     font-size:13px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
     /* background-image: url("images/oldpeople.jpg"); */
     
