@@ -1,0 +1,200 @@
+
+
+body{
+    margin: 0 ;
+    background-color: #125B50;
+}
+
+/* FOR THE NAV BAR */
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+#edibles-logo-white {
+    display: block;
+    float:left;
+    padding: 0.9em 0.8em;
+    background-color: #125B50;
+}
+
+nav {
+    margin:0;
+    background-color: #125B50;
+    padding-left:126px;
+    padding-right:126px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav > ul > li {
+    float: right;
+    padding: 1.3em 1.2em;
+}
+
+nav > ul > li > a {
+    font-family:sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul > li:hover {
+    background-color: #104d44;
+    color: white;
+  }
+
+/* MAIN > BODY TEXT */
+
+#body-text {
+    padding-top: 107px;
+    line-height:18px;
+}
+
+#body-text > p {
+    text-align:center;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+#secondline {
+    color: #F8B400 !important;
+}
+
+
+#subtext { 
+    font-size: 32px !important;
+    font-weight: 200 !important;
+}
+
+#newsletter {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.button > p > a {
+    text-align:center;
+    font-family:sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color: #125B50;
+    text-decoration: none;
+
+}
+
+.button > p {
+    margin:0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* MAIN > EXTRAS */
+
+.grid-container {
+    margin: 50px 50px;
+    margin-left:126px;
+    margin-right:126px;
+    display:grid;
+    /* border: solid black 1px; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px;
+    column-gap: 25px;
+    grid-template-areas:
+      "left right"
+}
+
+.gridbutton > p {
+    justify-content:center;
+    align-items:center;
+}
+
+.gridbutton > p > a {
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    text-decoration:none;
+    color:#125B50;
+    font-size:13px;
+    font-family: sans-serif;
+    font-weight:bold;
+    /* background-image: url("images/oldpeople.jpg"); */
+    
+}
+
+div > #analytics {
+    filter: drop-shadow(0 0 0.10rem black);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("images/oldpeople.jpg");
+    border-radius:10px;
+}
+
+div > #customer-service {
+    filter: drop-shadow(0 0 0.10rem black);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("images/friedchicken.jpg");
+    border-radius:10px;
+}
+
+/* FOR THE FOOTER */
+
+#triangle {
+    margin:0;
+    width: 0;
+    height: 0;
+    border-left: 1500px solid transparent;
+    border-bottom: 100px solid white;
+    object-fit: fill;
+    /* overflow:hidden; */
+}
+
+footer {
+    margin:0;
+    background-color:white;
+    padding:1.25em;
+    font-family:sans-serif;
+}
+
+footer > ul {
+    gap: 25px;
+    background-color:white;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+footer > ul > li > a {
+    text-decoration:none;
+    color:#125B50;
+    font-size:13px;
+    font-weight:bold;
+}
+
+footer > p {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 10px;
+    font-family:sans-serif;
+}
