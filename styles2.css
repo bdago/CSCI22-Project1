@@ -4,7 +4,17 @@ body{
     margin: 0 ;
     background-color: #125B50;
 }
+#edibles-sad-logo-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: -50px;
+}
 
+#confirmdelete > h1 {
+    text-align: center;
+}
 /* FOR ALL BUTTONS */
 
 h1 {
@@ -23,6 +33,11 @@ h2 {
     margin-left:126px;
     margin-right:126px;
     font-weight:100;
+}
+
+.largeicon {
+    height: 100px;
+    width: 100px;
 }
 
 .buttonset {
@@ -89,6 +104,18 @@ h2 {
     color:white;
 }
 
+#cancel {
+    background-color: white;
+}
+
+#cancel > a {
+    color: #125B50;
+}
+
+#confirmdelete > .buttonset {
+    margin-top: 30px;
+    margin-bottom: 320px;
+}
 /* FOR LIST TYPE PAGES!(e.g. customers.html) */
 
 .entries > p {
