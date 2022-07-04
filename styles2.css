@@ -25,6 +25,13 @@ h2 {
     font-weight:100;
 }
 
+h3 {
+    margin:0;
+    font-family:'Open-Sans', sans-serif;
+    color:#104d44;
+    font-weight:bold;
+}
+
 .buttonset {
     display:flex;
     gap: 10px;
@@ -120,7 +127,31 @@ h2 {
 }
 
 
+/* FOR VIEW TYPE PAGES (e.g. customer1.html) */
 
+#mlistview {
+    row-gap:5px;
+    padding: 15px;
+    border-radius:10px;
+    background-color:white;
+    filter: drop-shadow(0 0 0.025rem black);
+    margin: 20px 126px;
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 68px ;
+    grid-template-areas:
+    "entry1a entry1b entry1c"
+    "entry2a entry2b entry2c"
+    "entry3a entry3b entry3c"
+    "entry4a entry4b entry4c"
+    "entry5a entry5b entry5c"
+ 
+}
+
+.buttonset {
+    /* grid-area:entry4; */
+    grid-area: 5/1/6/4;
+}
 
 /* FOR THE NAV BAR */
 
