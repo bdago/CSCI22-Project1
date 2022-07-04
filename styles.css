@@ -267,16 +267,6 @@ div > #customer-service {
 
 /* FOR THE FOOTER */
 
-#triangle {
-    margin: 0;
-    width: 0;
-    height: 0;
-    border-left: 1500px solid transparent;
-    border-bottom: 100px solid white;
-    object-fit: fill;
-    /* overflow:hidden; */
-}
-
 footer {
     height: 100%;
     margin:0;
