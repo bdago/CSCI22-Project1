@@ -113,7 +113,7 @@ h2 {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 68px 68px 68px 68px ;
     grid-template-areas:
-    "entry1a entry1b entry1c entry1butt"
+    "entry1 entry1butt"
     "entry2 entry2butt"
     "entry3 entry3butt"
     "entry4 entry4butt"
