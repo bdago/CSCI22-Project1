@@ -85,25 +85,6 @@ ul > li:hover {
     align-items:center;
 
 }
-/*start of signin styles*/
-
-/*#create-account {
-    background-color: white;
-    border-radius: 5px;
-    margin: 10px 757px;
-    padding: 1px;
-}
-
-#create-account > p {
-    text-align: right;
-    font-family: 'Open Sans', sans-serif;
-    margin: 10px;
-}
-
-#create-account > p > a {
-    color: #125B50;
-    text-decoration: none;
-} */
 
 #signin-main {
     justify-content:center;
