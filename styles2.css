@@ -251,7 +251,21 @@ h3 {
 
 .entrya {
     grid-area:entry2a;
+    
 }
+
+.entry3a {
+    grid-area:entry3a;
+}
+
+.entry3b {
+    grid-area:entry3b;
+}
+
+.entry3c {
+    grid-area:entry3c;
+}
+
 
 #content {
     font-family:'Open-Sans',sans-serif;
