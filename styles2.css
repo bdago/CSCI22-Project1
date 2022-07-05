@@ -249,6 +249,10 @@ h3 {
     grid-area: 5/1/6/4;
 }
 
+.entrya {
+    grid-area:entry2a;
+}
+
 #content {
     font-family:'Open-Sans',sans-serif;
 
