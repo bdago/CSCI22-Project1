@@ -26,16 +26,28 @@ input [type=text]:focus {
 }
 
 textarea {
+    padding: 5px;
     width: 30.5%;
     resize: none;
     font-family: 'Open-Sans', sans-serif;
 }
 
- #headings {
+#headings {
     margin-left: 175px;
- }
+}
 
- #editcustomerfield {
+#editcustomerfield {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    border-radius:10px;
+    background-color:white;
+    border-bottom: solid black 1px;
+    margin: 20px 300px;
+    display: grid;
+    row-gap: 1px;
+}
+
+#editfoodfield {
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
     border-radius:10px;
@@ -197,6 +209,13 @@ h3 {
     justify-content: left;
     align-items: left;
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#editfoodfield > .buttonset {
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 /* FOR LIST TYPE PAGES!(e.g. customers.html) */
