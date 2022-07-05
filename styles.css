@@ -69,6 +69,10 @@ ul > li:hover {
 
 }
 
+.comingsoon {
+    margin-bottom:250px;
+}
+
 #secondline {
     color: #F8B400 !important;
 }
@@ -85,32 +89,13 @@ ul > li:hover {
     align-items:center;
 
 }
-/*start of signin styles*/
-
-/*#create-account {
-    background-color: white;
-    border-radius: 5px;
-    margin: 10px 757px;
-    padding: 1px;
-}
-
-#create-account > p {
-    text-align: right;
-    font-family: 'Open Sans', sans-serif;
-    margin: 10px;
-}
-
-#create-account > p > a {
-    color: #125B50;
-    text-decoration: none;
-} */
 
 #signin-main {
     justify-content:center;
     align-items: center;
     background-color: white;
     border-radius: 5px;
-    margin: 10.1% 39%;
+    margin: 10.1% 35%;
     padding: 10px;
     display: grid;
     grid-template-areas:
