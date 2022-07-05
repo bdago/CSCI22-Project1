@@ -4,7 +4,26 @@ body{
     margin: 0 ;
     background-color: #125B50;
 }
+#edibles-sad-logo-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: -50px;
+}
 
+#confirmdelete > h1 {
+    text-align: center;
+}
+
+input {
+    width: 30%;
+    padding: 5px;
+}
+
+input [type=text]:focus {
+    border: 3px solid #555;
+}
 /* FOR ALL BUTTONS */
 
 h1 {
@@ -30,6 +49,10 @@ h3 {
     font-family:'Open-Sans', sans-serif;
     color:#104d44;
     font-weight:bold;
+}
+.largeicon {
+    height: 100px;
+    width: 100px;
 }
 
 .buttonset {
@@ -96,6 +119,48 @@ h3 {
     color:white;
 }
 
+#cancel {
+    background-color: white;
+}
+
+#cancel > a {
+    color: #125B50;
+}
+
+#save {
+    background-color: #125B50;
+}
+
+#save > a {
+    color: white;
+}
+
+#canceledit {
+    background-color: #FF6363;
+}
+
+#canceledit > a {
+    color: white;
+}
+
+#confirmdelete > .buttonset {
+    margin-top: 30px;
+    margin-bottom: 320px;
+}
+
+#addcustomerfield > #addbutton {
+    justify-content:left;
+    align-items:left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#editcustomerfield > .buttonset {
+    justify-content: left;
+    align-items: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 /* FOR LIST TYPE PAGES!(e.g. customers.html) */
 
 .entries > p {
@@ -126,6 +191,16 @@ h3 {
     "entry4 entry4butt"
 }
 
+#addcustomerfield {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    border-radius:10px;
+    background-color:white;
+    border-bottom: solid black 1px;
+    margin: 20px 300px;
+    display: grid;
+    row-gap: 1px;
+}
 
 /* FOR VIEW TYPE PAGES (e.g. customer1.html) */
 
