@@ -48,7 +48,9 @@ h3 {
     margin:0;
     font-family:'Open-Sans', sans-serif;
     color:#104d44;
+    font-size: 24px;
     font-weight:bold;
+    text-align:center;
 }
 .largeicon {
     height: 100px;
@@ -206,14 +208,14 @@ h3 {
 
 #mlistview {
     row-gap:5px;
-    padding: 15px;
+    padding: 45px;
     border-radius:10px;
     background-color:white;
     filter: drop-shadow(0 0 0.025rem black);
     margin: 20px 126px;
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr 68px ;
+    grid-template-rows: 0.5fr 1fr 1fr 68px ;
     grid-template-areas:
     "entry1a entry1b entry1c"
     "entry2a entry2b entry2c"
@@ -223,9 +225,22 @@ h3 {
  
 }
 
-.buttonset {
+.orderitems{
+    grid-area: 1/2/2/4;
+}
+
+#mlistview > .buttonset {
     /* grid-area:entry4; */
     grid-area: 5/1/6/4;
+}
+
+#content {
+    font-family:'Open-Sans',sans-serif;
+
+}
+
+.entrybc {
+    list-style-type:none;
 }
 
 /* FOR THE NAV BAR */
