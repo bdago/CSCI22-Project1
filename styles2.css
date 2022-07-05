@@ -25,6 +25,12 @@ input [type=text]:focus {
     border: 3px solid #555;
 }
 
+textarea {
+    width: 30.5%;
+    resize: none;
+    font-family: 'Open-Sans', sans-serif;
+}
+
  #headings {
     margin-left: 175px;
  }
@@ -109,6 +115,21 @@ h3 {
 }
 
 #addbutton > div > a {
+    color: white;
+}
+#addfoodbutton {
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    margin-top: 15px;
+    margin-bottom:20px;
+}
+
+#addfoodbutton > .button {
+    background-color: #F8CD00;
+}
+
+#addfoodbutton > div > a {
     color: white;
 }
 
@@ -218,6 +239,19 @@ h3 {
     display: grid;
     row-gap: 1px;
 }
+
+#addfoodfield {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    border-radius:10px;
+    background-color:white;
+    border-bottom: solid black 1px;
+    margin: 20px 300px;
+    display: grid;
+    row-gap: 1px;
+}
+
+
 
 /* FOR VIEW TYPE PAGES (e.g. customer1.html) */
 
