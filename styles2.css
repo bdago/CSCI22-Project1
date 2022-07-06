@@ -57,6 +57,55 @@ textarea {
     display: grid;
     row-gap: 1px;
 }
+
+#addorderfield {
+    display: grid;
+    row-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "customer customer"
+    "foodheading qtyheading"
+    "foodlist qty"
+    "button button";
+}
+
+#editorderfield {
+    display: grid;
+    row-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "customer customer"
+    "foodheading qtyheading"
+    "foodlist qty"
+    "button button";
+}
+
+#addorderfield > h3 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+#editorderfield > h3 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+#foodlist > p {
+    margin: 13px;
+}
+
+#qty > input {
+    margin-bottom: 5px;
+    margin-left: 35px;
+    display: block;
+    width: 15px;
+    text-align: center;
+}
+
+#qty {
+    margin-top: 10px;
+}
+
 /* FOR ALL BUTTONS */
 
 h1 {
@@ -145,6 +194,32 @@ h3 {
     color: white;
 }
 
+#addorderbutton {
+    grid-column: 1/3;
+    width: 100%;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+#editorderfield > .buttonset {
+    grid-column: 1/3;
+    width: 100%;
+    margin: 20px 0;
+    margin-left: -50px;
+}
+
+#addorderbutton > .button {
+    background-color: #F8CD00;
+}
+
+#addorderbutton > .button > a {
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+    color: white;
+}
+
 #edit{
     background-color:#104d44;
 }
@@ -218,6 +293,7 @@ h3 {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
 /* FOR LIST TYPE PAGES!(e.g. customers.html) */
 
 .entries > p {
@@ -270,7 +346,67 @@ h3 {
     row-gap: 1px;
 }
 
+#addorderfield {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    padding-right: 500px;
+    padding-left: 15px;
+    border-radius:10px;
+    background-color:white;
+    border-bottom: solid black 1px;
+    margin: 20px 300px;
+    display: grid;
+    row-gap: 1px;
+}
 
+#editorderfield {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    padding-right: 500px;
+    padding-left: 15px;
+    border-radius:10px;
+    background-color:white;
+    border-bottom: solid black 1px;
+    margin: 20px 300px;
+    display: grid;
+    row-gap: 1px;
+}
+
+#customerdrop {
+    grid-area: customer;
+}
+
+#addorderfield > #foodheading {
+    grid-area: foodheading;
+}
+
+#addorderfield > #qtyheading {
+    grid-area: qtyheading;
+}
+
+#addorderfield > #foodlist {
+    grid-area: foodlist;
+}
+
+#addorderfield > #qty {
+    grid-area: qty;
+}
+
+#editorderfield > #foodheading {
+    grid-area: foodheading;
+}
+
+#editorderfield > #qtyheading {
+    grid-area: qtyheading;
+}
+
+#editorderfield > #foodlist {
+    grid-area: foodlist;
+}
+
+#editorderfield > #qty {
+    grid-area: qty;
+}
 
 /* FOR VIEW TYPE PAGES (e.g. customer1.html) */
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <title> Customers </title>
+        <title> Orders </title>
         <link rel="icon" href="images/ediblesIcon.png">
         <link rel="stylesheet" type="text/css" href="styles2.css">
     </head>
@@ -18,40 +18,36 @@
             </ul>
         </nav>
         <div id = "headings">
-            <h1> Customers </h1>
-            <h2> Edit Customer </h2>
+            <h1> Orders </h1>
+            <h2> Add Order </h2>
         </div>
-        <div id = "editcustomerfield">
-            <div class = "entry" id ="firstname">
-                <p>First Name</p>
-                <input type = "text", placeholder="Juan">
+        <div id = "editorderfield">
+            <div class = "dropdown" id ="customerdrop">
+                <label for="customerdrop">Select customer:</label>
+                <select name="customer" id="customerlist">
+                    <option value="juan">Juan Dela Cruz</option>
+                    <option value="bryan">Bryan Go</option>
+                    <option value="china">China Valencia</option>
+                </select>
             </div>
-            <div class = "entry" id ="surname">
-                <p>Surname</p>
-                <input type = "text", placeholder="Dela Cruz">
+            <h3 id="foodheading">Food Item:</h3>
+            <div id ="foodlist">
+                <p>Spaghetti</p>
+                <p>Mango Cake</p>
+                <p>Katsudon</p>
             </div>
-            <div class = "entry" id ="address">
-                <p>Address</p>
-                <input type = "text", placeholder="Ateneo">
-            </div>
-            <div class = "entry" id ="city">
-                <p>City</p>
-                <input type = "text", placeholder="Quezon City">
-            </div>
-            <div class = "entry" id ="province">
-                <p>Province</p>
-                <input type = "text", placeholder="Metro Manila">
-            </div>
-            <div class = "entry" id ="emailadd">
-                <p>Email</p>
-                <input type = "email", placeholder="juandelacruz@obf.ateneo.edu">
+            <h3 id="qtyheading">Quantity:</h3>
+            <div class = "entry" id ="qty">
+                <input type = "text">
+                <input type = "text", placeholder="1">
+                <input type = "text", placeholder="2">
             </div>
             <div class = "buttonset"> 
                 <div class = "button" id = "canceledit"> 
-                    <a href = "customers.html"> Cancel </a>
+                    <a href = "orders.html"> Cancel </a>
                 </div>
                 <div class = "button" id = "save">
-                    <a href = "customer1updated.html"> Save </a>
+                    <a href = "order1updated.html"> Save </a>
                 </div>
             </div>
         </div>
