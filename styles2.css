@@ -371,6 +371,7 @@ h3 {
     display: grid;
     row-gap: 1px;
 }
+
 #customerdrop {
     grid-area: customer;
 }
